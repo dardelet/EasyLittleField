@@ -1,0 +1,25 @@
+#cron:
+#- description: littlefield update
+#  url: /littlefield
+#  schedule: every 30 minutes from 00:22 to 23:52
+
+cron:
+- description: littlefield update 1-5
+  url: /littlefield/1
+  schedule: every 30 minutes from 00:22 to 23:52
+
+- description: littlefield update 6-10
+  url: /littlefield/2
+  schedule: every 30 minutes from 00:28 to 23:58
+
+- description: littlefield update 11-15
+  url: /littlefield/3
+  schedule: every 30 minutes from 00:04 to 23:34
+
+- description: littlefield update 16-20
+  url: /littlefield/4
+  schedule: every 30 minutes from 00:10 to 23:40
+
+- description: littlefield update 20-rest
+  url: /littlefield/5
+  schedule: every 30 minutes from 00:16 to 23:46
